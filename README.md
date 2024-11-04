@@ -6,7 +6,7 @@ Acunetix 13 - Vulnerability Scanner install (included docker version)
 
 ```sh
 docker pull ltp1120/acunetix_13:latest
-docker run -d -p 3443:3443 --name acunetix acunetix_13
+docker run -d -p 3443:3443 --name acunetix ltp1120/acunetix_13
 ```
 
 Reference: [Docker Hub](https://hub.docker.com/r/ltp1120/acunetix_13)

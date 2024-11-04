@@ -2,6 +2,21 @@
 
 Acunetix 13 - Vulnerability Scanner install (included docker version)
 
+## Prebuild version
+
+```sh
+docker pull ltp1120/acunetix_13:latest
+docker run -d -p 3443:3443 --name acunetix acunetix_13
+```
+
+Reference: [Docker Hub](https://hub.docker.com/r/ltp1120/acunetix_13)
+
+![image](https://github.com/user-attachments/assets/b02ea690-6d53-411f-aae2-6c901e6a7d1f)
+
+Default account:
++ Email: `admin@acunetix.com`
++ Password: `Acunetix@123`
+
 ## Docker setup guide
 
 ### Build image
@@ -13,14 +28,8 @@ docker build -t acunetix_13 .
 ### Run the container
 
 ```sh
-docker run -d -p 3444:3443 --name acunetix acunetix_13
+docker run -d -p 3443:3443 --name acunetix acunetix_13
 ```
-
-![image](https://github.com/user-attachments/assets/b02ea690-6d53-411f-aae2-6c901e6a7d1f)
-
-Default account:
-+ Email: `admin@acunetix.com`
-+ Password: `Acunetix@123`
 
 ## Local setup guide
 

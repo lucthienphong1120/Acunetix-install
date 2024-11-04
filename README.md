@@ -1,4 +1,8 @@
-## Docker setup guice
+# Acunetix-install
+
+Acunetix 13 - Vulnerability Scanner install (included docker version)
+
+## Docker setup guide
 
 ### Build image
 
@@ -11,6 +15,12 @@ docker build -t acunetix_13 .
 ```sh
 docker run -d -p 3444:3443 --name acunetix acunetix_13
 ```
+
+![image](https://github.com/user-attachments/assets/b02ea690-6d53-411f-aae2-6c901e6a7d1f)
+
+Default account:
++ Email: `admin@acunetix.com`
++ Password: `Acunetix@123`
 
 ## Local setup guide
 

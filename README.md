@@ -1,13 +1,20 @@
 # Acunetix-install
 
-Acunetix 13 - Vulnerability Scanner install (included docker version)
+Acunetix - Vulnerability Scanner install (included docker version)
 
 ## File structure
 
 Each Acunetix setup toolkit include:
 + script install
+  - `Install-files/acunetix_13.0.200217097_x64`
+  - `Install-files/acunetix_13.0.200715107_x64`
+  - `Install-files/acunetix_24.8.240828144_x64`
++ license engine
+  - `Licensed/v13/wvsc`
+  - `Licensed/v24/wvsc`
 + license file
-+ license binary
+  - `Licensed/v13/license_info.json`
+  - `Licensed/v24/license_info.json` + `Licensed/v24/wa_data.dat`
 
 ## Prebuild version
 
@@ -39,6 +46,26 @@ docker run -d -p 3443:3443 --name acunetix acunetix_13
 ```
 
 ## Local setup guide
+
+### Extract the install files
+
+This repo use zip split files (50MB) because of github limit file size for install script
+
+Use zip/unzip:
+
+```sh
+zip -FF acunetix_24.8.240828144_x64.zip --out full_acunetix.zip
+unzip full_acunetix.zip
+```
+
+Use cat:
+
+```sh
+cat acunetix_24.8.240828144_x64.z* > full_acunetix.zip
+unzip full_acunetix.zip
+```
+
+### Install and verify the license
 
 Acunetix 13 Linux Install
 1. Install using `bash acunetix_13.0.200217097_x64.sh`

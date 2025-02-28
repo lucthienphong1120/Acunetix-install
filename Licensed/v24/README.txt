@@ -6,7 +6,7 @@ Setup:
 
 ```
 sudo cp wvsc /home/acunetix/.acunetix/v_240828144/scanner/wvsc
-sudo chown acunetix:acunetix /home/acunetix/.acunetix/v_240226074/scanner/wvsc
+sudo chown acunetix:acunetix /home/acunetix/.acunetix/v_240828144/scanner/wvsc
 sudo chmod +x /home/acunetix/.acunetix/v_240828144/scanner/wvsc
 ```
 

@@ -47,23 +47,9 @@ docker run -d -p 3443:3443 --name acunetix acunetix_13
 
 ## Local setup guide
 
-### Extract the install files
+### Download the install files
 
-This repo use zip split files (50MB) because of github limit file size for install script
-
-Use zip/unzip:
-
-```sh
-zip -FF acunetix_24.8.240828144_x64.zip --out full_acunetix.zip
-unzip full_acunetix.zip
-```
-
-Use cat:
-
-```sh
-cat acunetix_24.8.240828144_x64.z* > full_acunetix.zip
-unzip full_acunetix.zip
-```
+All install files now are in [releases](./release)
 
 ### Install and verify the license
 

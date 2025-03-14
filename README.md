@@ -49,7 +49,7 @@ docker run -d -p 3443:3443 --name acunetix acunetix_13
 
 ### Download the install files
 
-All install files now are in [releases](./release)
+All install files now are in [releases](https://github.com/lucthienphong1120/Acunetix-install/releases)
 
 ### Install and verify the license
 

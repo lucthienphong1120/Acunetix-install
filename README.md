@@ -6,13 +6,12 @@ Acunetix - Vulnerability Scanner install (included docker version)
 
 Each Acunetix setup toolkit include:
 + script install
-  - [Releases](https://github.com/lucthienphong1120/Acunetix-install/releases)
+  - [Install-files](https://github.com/lucthienphong1120/Acunetix-install/releases)
 + license engine
-  - `Licensed/v13/wvsc`
-  - `Licensed/v24/wvsc`
+  - `Licensed/<version>/wvsc`
 + license file
-  - `Licensed/v13/license_info.json`
-  - `Licensed/v24/license_info.json` + `Licensed/v24/wa_data.dat`
+  - `Licensed/<version>/license_info.json`
+  - `Licensed/<version>/wa_data.dat`
 
 ## Prebuild version
 

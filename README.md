@@ -6,9 +6,7 @@ Acunetix - Vulnerability Scanner install (included docker version)
 
 Each Acunetix setup toolkit include:
 + script install
-  - `Install-files/acunetix_13.0.200217097_x64`
-  - `Install-files/acunetix_13.0.200715107_x64`
-  - `Install-files/acunetix_24.8.240828144_x64`
+  - [Releases](https://github.com/lucthienphong1120/Acunetix-install/releases)
 + license engine
   - `Licensed/v13/wvsc`
   - `Licensed/v24/wvsc`

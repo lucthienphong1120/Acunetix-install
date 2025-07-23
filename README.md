@@ -8,10 +8,10 @@ Each Acunetix setup toolkit include:
 + script install
   - [Install-files](https://github.com/lucthienphong1120/Acunetix-install/releases)
 + license engine
-  - `Licensed/<version>/wvsc`
+  - [Licensed/<version>/wvsc](./Licensed)
 + license file
-  - `Licensed/<version>/license_info.json`
-  - `Licensed/<version>/wa_data.dat`
+  - [Licensed/<version>/license_info.json](./Licensed)
+  - [Licensed/<version>/wa_data.dat](./Licensed)
 
 ## Prebuild version
 
